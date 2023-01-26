@@ -124,7 +124,7 @@ You can deploy this project using:
 👤 **Kigozi Joseph**
 
 - GitHub: [@jkanyi-web](https://github.com/jkanyi-web)
-- Twitter: [@rjkanyi757](https://twitter.com/jkanyi757)
+- Twitter: [@jkanyi757](https://twitter.com/jkanyi757)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kanyi-kanyi-6668aa188/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
