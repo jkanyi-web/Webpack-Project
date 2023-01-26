@@ -12,7 +12,7 @@ const toDos = [
   },
 
   {
-    description: 'Play fifa',
+    description: 'Complete Projects',
     completed: false,
     index: 2,
   },
@@ -38,14 +38,18 @@ list.innerHTML = `
 `;
 
 toDos.forEach((toDo) => {
-  const listItem = document.createElement('li');
-  listItem.classList.add('task');
-  listItem.innerHTML = ` 
-    <input type="checkbox">
-    <label>${toDo.description}</label>
-    <iconify-icon icon="ph:dots-three-outline-vertical-fill" class="dots"></iconify-icon>
-    <hr>  
-  `;
+  function addItem() {
+    const listItem = document.createElement('li');
+    listItem.classList.add('task');
+    listItem.innerHTML = ` 
+      <input type="checkbox">
+      <label>${toDo.description}</label>
+      <iconify-icon icon="ph:dots-three-outline-vertical-fill" class="dots"></iconify-icon>
+      <hr>  
+    `;
 
-  list.append(listItem);
+    list.append(listItem);
+  }
+
+  addItem();
 });
