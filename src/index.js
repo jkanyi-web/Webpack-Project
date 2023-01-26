@@ -37,8 +37,10 @@ list.innerHTML = `
   <hr>
 `;
 
-toDos.forEach((toDo) => {
-  function addItem() {
+const tasks = toDos.sort((a, b) => a.index - b.index).map((task) => task.name);
+
+tasks.forEach((toDo) => {
+  const addItem = () => {
     const listItem = document.createElement('li');
     listItem.classList.add('task');
     listItem.innerHTML = ` 
@@ -49,7 +51,6 @@ toDos.forEach((toDo) => {
     `;
 
     list.append(listItem);
-  }
-
+  };
   addItem();
 });
