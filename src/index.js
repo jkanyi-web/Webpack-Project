@@ -50,7 +50,7 @@ tasks.forEach((toDo) => {
       <hr>  
     `;
 
-    list.append(listItem);
+    return list.append(listItem);
   };
   addItem();
 });
