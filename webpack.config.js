@@ -1,10 +1,10 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: {
-    main: path.resolve(__dirname, 'src/index.js')
+    main: path.resolve(__dirname, 'src/index.js'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -13,9 +13,6 @@ module.exports = {
     assetModuleFilename: '[name][ext]',
   },
   devtool: 'source-map',
-  devServer: {
-    static: './dist',
-  },
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),
@@ -33,7 +30,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          'sass-loader'
+          'sass-loader',
         ],
       },
       {
@@ -53,10 +50,10 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin ({
+    new HtmlWebpackPlugin({
       title: 'Webpack App',
       filename: 'index.html',
       template: 'src/index.html',
     }),
   ],
-}
+};
