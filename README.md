@@ -3,25 +3,25 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [Todo List ](#todo-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -47,9 +47,12 @@
 ### Key Features <a name="key-features"></a>
 > Describe between 1-3 key features of the application.
 
-- **Add Book**
-- **Remove Book**
-- **Display Book**
+- **Add list items**
+- **Remove list items**
+- **Display list items**
+- **Strike-through on checkbox check**
+- **Delete list item**
+- **Edit list item**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +128,7 @@ You can deploy this project using:
 
 - GitHub: [@jkanyi-web](https://github.com/jkanyi-web)
 - Twitter: [@jkanyi757](https://twitter.com/jkanyi757)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kanyi-kanyi-6668aa188/)
+- LinkedIn: [kanyi-kanyi](https://linkedin.com/in/kanyi-kanyi-6668aa188/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
