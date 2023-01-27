@@ -51,7 +51,7 @@
 - **Remove list items**
 - **Display list items**
 - **Strike-through on checkbox check**
-- **Ddelete list item**
+- **Delete list item**
 - **Edit list item**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
